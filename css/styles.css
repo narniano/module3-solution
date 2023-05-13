@@ -1,41 +1,41 @@
+.navbar {
+  margin-bottom: 0;
+}
+
 #header-nav {
-    border-radius: 0;
-    height: 70px;
+  border-radius: 0;
+  border: 0;
 }
 
 .navbar-brand {
-    padding-top: 25px;
-  }
-
-  .navbar-brand h1 { 
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-  }
-
-  #nav-list {
-    margin-top: 10px;
-  }
-  #nav-list a {
-    color: #951C49;
-    text-align: center;
-  }
-  #nav-list a:hover {
-    background: #E7E7E7;
-  }
-  #nav-list a span {
-    font-size: 1.8em;
-  }
-
-  @media (max-width: 767px) {
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
+  padding-top: 25px;
+  height: 70px;
 }
+
+.navbar-brand h1 { 
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  color: black;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 15px;
+}
+
+h2 {
+  margin: 30px;
+}
+
+#chicken, #beef, #sushi {
+  background-color: #f8f8f8;
+  padding: 15px;
+  margin: 20px;
+}
+
+h3 {
+  margin: 15px;
+}
+
